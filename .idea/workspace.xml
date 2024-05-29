@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4ece752-d742-41d0-8318-2d2f43cf3244" name="Changes" comment="Rakamlar toplamını yazdıran program">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C1_Scanner_IncrementDecrement/src/main/java/org/example/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C1_Scanner_IncrementDecrement/src/main/java/org/example/Scanner_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RakamlarToplami/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C1_Scanner_IncrementDecrement/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RakamlarToplami/src/main/java/org/example/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -47,7 +41,20 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Scanner_2">
+  <component name="RunManager" selected="Application.AutoWidening">
+    <configuration name="AutoWidening" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.AutoWidening" />
+      <module name="C1_Scanner_IncrementDecrement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Scanner" />
       <module name="C1_Scanner_IncrementDecrement" />
@@ -76,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutoWidening" />
         <item itemvalue="Application.Scanner_2" />
         <item itemvalue="Application.Scanner" />
       </list>
