@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4ece752-d742-41d0-8318-2d2f43cf3244" name="Changes" comment="Scanner- Auto widening">
-      <change afterPath="$PROJECT_DIR$/C1_MatematikselIslemler/src/main/java/org/example/WrapperClass.java" afterDir="false" />
+    <list default="true" id="a4ece752-d742-41d0-8318-2d2f43cf3244" name="Changes" comment="wrapper class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Application.MatematikselIslemler.executor": "Debug",
     "Application.WrapperClass.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -70,7 +70,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WrapperClass">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AutoWidening" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AutoWidening" />
       <module name="C1_Scanner_IncrementDecrement" />
@@ -84,22 +84,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatematikselIslemler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MatematikselIslemler" />
-      <module name="C1_MatematikselIslemler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="C1_IfStatements" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Scanner" />
-      <module name="C1_Scanner_IncrementDecrement" />
+    <configuration name="MatematikselIslemler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MatematikselIslemler" />
+      <module name="C1_MatematikselIslemler" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -138,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.WrapperClass" />
         <item itemvalue="Application.MatematikselIslemler" />
         <item itemvalue="Application.AutoWidening" />
         <item itemvalue="Application.Scanner_2" />
-        <item itemvalue="Application.Scanner" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716822643502</updated>
-      <workItem from="1717168518125" duration="826000" />
+      <workItem from="1717168518125" duration="5597000" />
     </task>
     <task id="LOCAL-00001" summary="Rakamlar toplamını yazdıran program">
       <created>1716823694410</created>
@@ -185,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716979444945</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="wrapper class">
+      <option name="closed" value="true" />
+      <created>1717171067666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717171067666</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rakamlar toplamını yazdıran program" />
     <MESSAGE value="Scanner- Auto widening" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scanner- Auto widening" />
+    <MESSAGE value="wrapper class" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrapper class" />
   </component>
 </project>
